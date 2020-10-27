@@ -7,6 +7,6 @@ background-image: climb.jpeg
 tags:
   - 比特币
   - UTXO
-  - P2SH，P2PKH
-
+  - P2SH
+  - P2PKH
 ---
