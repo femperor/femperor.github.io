@@ -2,7 +2,7 @@
 priority: 0.6
 title: C++11 features
 excerpt: 从EOS源码看C++11新特性
-categories: topics
+categories: [Summarise]
 background-image: climb.jpeg
 tags:
   - C++11

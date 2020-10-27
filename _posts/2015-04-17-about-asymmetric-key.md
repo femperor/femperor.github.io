@@ -2,7 +2,7 @@
 priority: 0.6
 title: 关于非对称加密算法
 excerpt: ECC实战
-categories: topics
+categories: [Summarise]
 background-image: climb.jpeg
 tags:
   - 算法

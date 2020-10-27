@@ -2,7 +2,7 @@
 priority: 0.6
 title: XCode11 公证pkg
 excerpt: MacOSX系列
-categories: topics
+categories: [Summarise]
 background-image: climb.jpeg
 tags:
   - Notarize

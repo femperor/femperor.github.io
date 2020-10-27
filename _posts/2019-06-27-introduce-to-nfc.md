@@ -2,7 +2,7 @@
 priority: 0.6
 title: NFC浅入浅出
 excerpt: 从iOS13开发NFC写Tag说起
-categories: topics
+categories: [Summarise]
 background-image: climb.jpeg
 tags:
   - iOS13

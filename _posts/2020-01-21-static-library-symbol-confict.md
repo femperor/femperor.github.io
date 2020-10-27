@@ -2,7 +2,7 @@
 priority: 0.6
 title: 静态库符号冲突
 excerpt: 程序员自我修养系列
-categories: topics
+categories: [Summarise]
 background-image: climb.jpeg
 tags:
   - 静态库

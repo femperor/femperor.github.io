@@ -2,7 +2,7 @@
 priority: 0x6
 title: C++11可变参数函数模板展开原理
 excerpt: 从EOS源码看C++11新特性
-categories: topics
+categories: [Summarise]
 background-image: climb.jpeg
 tags:
   - C++11

@@ -2,7 +2,7 @@
 priority: 0.6
 title: 再谈成为产品的CEO
 excerpt: translate from CEO of the Product Revisited
-categories: topics
+categories: [Essay]
 background-image: climb.jpeg
 tags:
   - Product Manager

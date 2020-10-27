@@ -2,7 +2,7 @@
 priority: 0.6
 title: iOS逆向
 excerpt: 越狱、砸壳和重签名
-categories: topics
+categories: [Summarise]
 background-image: climb.jpeg
 tags:
   - 越狱

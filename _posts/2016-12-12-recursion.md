@@ -2,7 +2,7 @@
 priority: 0.6
 title: 递归与递推
 excerpt: 简单算法系列
-categories: topics
+categories: [Essay]
 background-image: climb.jpeg
 tags:
   - 面试

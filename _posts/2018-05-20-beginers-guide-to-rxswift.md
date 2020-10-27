@@ -2,7 +2,7 @@
 priority: 0.6
 title: RxSwift入门
 excerpt: 响应式编程初体验
-categories: topics
+categories: [Summarise]
 background-image: climb.jpeg
 tags:
   - ReactiveX
