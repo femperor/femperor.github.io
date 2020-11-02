@@ -31,7 +31,7 @@ tags:
 
    上面的命令需要将'$APPLE_ID'和'\$NOTARIZE_PASSWORD' 替换为实际apple id和公证密码。后面公证时就可以在命令行中用@keychain:MAC_NOTARIZE获取公证密码了。
 
-![企业微信截图_b8c94fd1-5a54-4cf0-9821-fd9d795f97c3](../images/topic_resource/企业微信截图_b8c94fd1-5a54-4cf0-9821-fd9d795f97c3.png)
+![企业微信截图_b8c94fd1-5a54-4cf0-9821-fd9d795f97c3](../assets/img/topic/企业微信截图_b8c94fd1-5a54-4cf0-9821-fd9d795f97c3.png)
 
 ## 公证
 
@@ -49,11 +49,11 @@ tags:
 
 ```xcrun altool --list-providers -u $APPLE_ID -p @keychain:MAC_NOTARIZE```
 
-##![企业微信截图_f5b993e8-ed2d-43c8-bf7a-480b6c462279](../images/topic_resource/企业微信截图_f5b993e8-ed2d-43c8-bf7a-480b6c462279.png)
+##![企业微信截图_f5b993e8-ed2d-43c8-bf7a-480b6c462279](../assets/img/topic/企业微信截图_f5b993e8-ed2d-43c8-bf7a-480b6c462279.png)
 
 这时一切顺利的话，公证指令就会返回一个请求的uuid，如下：
 
-![企业微信截图_a781d49e-f7a9-476d-9a47-1880e70cdb21](../images/topic_resource/企业微信截图_a781d49e-f7a9-476d-9a47-1880e70cdb21.png)
+![企业微信截图_a781d49e-f7a9-476d-9a47-1880e70cdb21](../assets/img/topic/企业微信截图_a781d49e-f7a9-476d-9a47-1880e70cdb21.png)
 
 通过RequestUUID，我们可以查询此次公证的结果
 
@@ -77,11 +77,11 @@ Status Message: Package Invalid
 
 根据访问LogFileURL，可以了解公证失败的原因是因为使用了非Developer ID类型的证书
 
-![企业微信截图_0daca2ed-2a31-4ab2-b251-42b75299b0e5](../images/topic_resource/企业微信截图_0daca2ed-2a31-4ab2-b251-42b75299b0e5.png)
+![企业微信截图_0daca2ed-2a31-4ab2-b251-42b75299b0e5](../assets/img/topic/企业微信截图_0daca2ed-2a31-4ab2-b251-42b75299b0e5.png)
 
 如果公证通过，那么返回的内容中Status为success。
 
-![企业微信截图_98b29973-4858-4f18-a8c6-7d15c7b5dff5](../images/topic_resource/企业微信截图_98b29973-4858-4f18-a8c6-7d15c7b5dff5.png)
+![企业微信截图_98b29973-4858-4f18-a8c6-7d15c7b5dff5](../assets/img/topic/企业微信截图_98b29973-4858-4f18-a8c6-7d15c7b5dff5.png)
 
 ### 验证
 
@@ -93,7 +93,7 @@ Status Message: Package Invalid
 
 显示的结果类似
 
-![企业微信截图_ee892131-cad9-45ce-b67d-25e90c128dca](../images/topic_resource/企业微信截图_ee892131-cad9-45ce-b67d-25e90c128dca.png)
+![企业微信截图_ee892131-cad9-45ce-b67d-25e90c128dca](../assets/img/topic/企业微信截图_ee892131-cad9-45ce-b67d-25e90c128dca.png)
 
 注意source后带Notarized即为公证成功，否则是不带的。
 
@@ -107,7 +107,7 @@ Status Message: Package Invalid
 
 然后通过```xcrun stapler staple -v $NOTARIZED_TARGET``` 来查看是否成功
 
-![企业微信截图_3fe9bf39-d56f-472a-bbbd-ce95f75e0265](../images/topic_resource/企业微信截图_3fe9bf39-d56f-472a-bbbd-ce95f75e0265.png)
+![企业微信截图_3fe9bf39-d56f-472a-bbbd-ce95f75e0265](../assets/img/topic/企业微信截图_3fe9bf39-d56f-472a-bbbd-ce95f75e0265.png)
 
 
 
