@@ -17,9 +17,9 @@ tags:
 以公司MacOSX安装包为例，公证成功的前提如下：
 
 1. 所有binary archive，如app， dylib， framework，kext，以及打包的pkg都需要用developer ID类型证书签名，以其他类型证书签名公证会给出错误原因The binary is not signed with a valid Developer ID certificate。其中pkg需要Developer ID installer类型的证书。
-2. 凡是需要签名的内容都需要在Build Settings 的Other Code Signing Flags 选项添加--timestamp，这个选项顾名思义，会在签名时打上时间戳，可以用```codesign -d -vv xxx```看到签名内容中增加了Timestamp项![企业微信截图_54705905-c76f-43aa-80d7-c2ba73dd6fd7](../images/topic_resource/企业微信截图_54705905-c76f-43aa-80d7-c2ba73dd6fd7.png)
+2. 凡是需要签名的内容都需要在Build Settings 的Other Code Signing Flags 选项添加--timestamp，这个选项顾名思义，会在签名时打上时间戳，可以用```codesign -d -vv xxx```看到签名内容中增加了Timestamp项![企业微信截图_54705905-c76f-43aa-80d7-c2ba73dd6fd7](../assets/img/topic/企业微信截图_54705905-c76f-43aa-80d7-c2ba73dd6fd7.png)
 
-3. app需要开启hardened Runtime，Hardened Runtime的选项可以根据需要勾选![企业微信截图_e148fcd9-4379-4bed-8d15-04b294b768c3](../images/topic_resource/企业微信截图_e148fcd9-4379-4bed-8d15-04b294b768c3.png)
+3. app需要开启hardened Runtime，Hardened Runtime的选项可以根据需要勾选![企业微信截图_e148fcd9-4379-4bed-8d15-04b294b768c3](../assets/img/topic/企业微信截图_e148fcd9-4379-4bed-8d15-04b294b768c3.png)
 
 4. 需要申请公证用的密码，公证时需要提供用户名和密码，用户名是Apple ID的用户名，但密码是另外的，如果使用Apple ID的密码做公证，会收到错误提示Error: code -22016 (Unable to validate your application. We are unable to create an authentication session.)。
 
